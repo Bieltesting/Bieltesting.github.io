@@ -11,6 +11,10 @@ main {
     box-sizing: border-box;
 }
 
+#botao-compartilhar {
+    display: none;
+}
+
 h3 {
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
@@ -57,8 +61,13 @@ button:active {
 #link-desbloqueado {
     display: none;
     margin-top: 20px;
+    background-color: greenyellow;
 }
 
+.no-underline {
+    text-decoration: none;
+  }
+  
 @media (max-width: 767px) {
     main {
         padding: 10px;

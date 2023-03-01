@@ -19,7 +19,7 @@ compartilhar.addEventListener('click', function() {
   const url = window.location.href;
 
 //Crie a URL do WhatsApp com a mensagem desejada
-const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(`Venha se tornar Promoter você também: ${url}`)}`;
+const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(`Abriu vaga de Promoter da ZZON TENN: ${url}`)}`;
 
 //Abra a URL do WhatsApp em uma nova janela
 window.open(whatsappUrl);
